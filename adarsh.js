@@ -1,3 +1,7 @@
+// mkdir     => to make directory
+// cd        => to change directory
+// code .    => to open VS code of that file
+
 // console.log("hello world!");
 
 // let, var, const
@@ -120,49 +124,5 @@ let User = {
   email: "adarsh@gmail.com",
   password: "11111111",
 };
-
-let userData = [
-  {
-    email: "adarsh@gmail.com",
-    password: "11111111",
-  },
-  {
-    email: "adah@gmail.com",
-    password: "111adfs1111",
-  },
-  {
-    email: "ash@gmail.com",
-    password: "11awesdfeads111111",
-  },
-  {
-    email: "adarsh@645gmail.com",
-    password: "111afdcads111",
-  },
-  {
-    email: "adsh@gmail.m",
-    password: "1111111asdfcad1",
-  },
-  {
-    email: "qqqqq@gmail.com",
-    password: "qqqqqqq",
-  },
-];
-
-let email = "qqqq@gmail.com";
-let password = "qqqqqq";
-
-for (let i = 0; i < userData.length; i++) {
-  if (email === userData[i].email) {
-    if (password === userData[i].password) {
-      console.log("Welcome " + userData[i].email);
-    } else {
-      console.log("wrong Password");
-    }
-    // console.log("ahe bhai email tuza");
-  } else {
-    console.log("bhai tera account nahi hai yaha ,u  need to register first");
-  }
-  //   console.log(userData[i].email);
-}
 
 // userData[i];
