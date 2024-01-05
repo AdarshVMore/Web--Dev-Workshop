@@ -89,7 +89,7 @@ let a = "156";
 
 // console.log("Good Morning " + firstName + " " + lastName);
 
-// Question : 2
+Question: 2;
 // let firstName = "XYZ";
 // let lastName = "ABC";
 // let gender = "boy";
@@ -106,8 +106,8 @@ let a = "156";
 //   console.log(i);
 // }
 
-let x = [10, 20, 25, 30, 35];
-let z = ["hii", "hello", "GM", "GN"];
+// let x = [10, 20, 25, 30, 35];
+// let z = ["hii", "hello", "GM", "GN"];
 
 let y = {
   name: "adarsh",
@@ -116,13 +116,61 @@ let y = {
   KT: true,
 };
 
-console.log(x[3] + 1000);
+// console.log(x[3] + 1000);
 
-console.log(y.KT);
+// console.log(y.KT);
 
-let User = {
-  email: "adarsh@gmail.com",
-  password: "11111111",
-};
+// let User = {
+//   email: "adarsh@gmail.com",
+//   password: "11111111",
+// };
 
 // userData[i];
+
+// function addition(a, b) {
+//   let c = a + b;
+//   console.log(c);
+// }
+
+// addition(15, 20);
+
+// async function greeting(fname, lname, gender) {
+//   if (gender === "boy") {
+//   } else if (gender === "girl") {
+//     // console.log("Good Morning Ms " + fname + " " + lname);
+//     console.log(`good morning Ms ${fname} ${lname}`);
+//   }
+// }
+
+// greeting("qqq", "www", "girl");
+
+// console.log(1);
+// setTimeout(() => {
+//   console.log(2);
+// }, 0);
+// console.log(3);
+
+function asyncExample() {
+  console.log(1);
+
+  setTimeout(async () => {
+    const response = await fetch("https://api.chucknorris.io/jokes/random");
+    const dataxxxxx = await response.json();
+    console.log(dataxxxxx.value);
+    return dataxxxxx.value;
+  }, 5000);
+
+  console.log(3);
+
+  setTimeout(() => {
+    console.log(4);
+  }, 1000);
+
+  console.log(5);
+
+  setTimeout(() => {
+    console.log(6);
+  }, 4000);
+}
+
+asyncExample();
